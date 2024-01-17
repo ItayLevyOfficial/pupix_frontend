@@ -1,0 +1,82 @@
+{
+  "name": "pupik_live_web",
+  "version": "0.1.0",
+  "private": true,
+  "main": "function.js",
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.11.0",
+    "@svgr/webpack": "^5.5.0",
+    "@types/react-loader-spinner": "^4.0.0",
+    "bootstrap": "^4.6.0",
+    "browser-image-compression": "^1.0.14",
+    "circular-dependency-plugin": "^5.2.2",
+    "copy-to-clipboard": "^3.3.1",
+    "cross-env": "^7.0.3",
+    "embla-carousel": "^4.5.3",
+    "firebase": "8.5.0",
+    "keen-slider": "^5.5.1",
+    "libphonenumber-js": "^1.8.4",
+    "mobile-detect": "^1.4.5",
+    "next": "^11.0.1",
+    "next-seo": "^4.26.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.2",
+    "react-firebase-hooks": "^3.0.4",
+    "react-flags-select": "^2.1.2",
+    "react-infinite-scroll-component": "^5.0.5",
+    "react-ios-switch": "^0.1.19",
+    "react-loader-spinner": "^4.0.0",
+    "react-loading-skeleton": "^2.2.0",
+    "react-phone-input-2": "^2.13.8",
+    "reset-css": "^5.0.1",
+    "screenfull": "^5.0.2",
+    "styled-components": "^5.3.0",
+    "twilio-video": "2.21.0",
+    "typeface-roboto": "0.0.75"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/react-hooks": "^5.1.2",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/firebase": "^3.2.1",
+    "@types/next": "^9.0.0",
+    "@types/next-seo": "^2.1.2",
+    "@types/react-bootstrap": "^0.32.25",
+    "@types/screenfull": "^4.1.0",
+    "@types/styled-components": "^5.1.5",
+    "@types/twilio-video": "^2.7.1",
+    "babel-plugin-styled-components": "latest",
+    "env-cmd": "^10.1.0",
+    "eslint": "^7.24.0",
+    "eslint-config-next": "^11.0.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "react-test-renderer": "^17.0.2",
+    "source-map-explorer": "^2.5.2"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build:staging": "env-cmd -f /Users/itaylevy134/WebstormProjects/pupik_live_web/.env.staging next build",
+    "deploy": "npm run build && firebase deploy --only functions,hosting"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

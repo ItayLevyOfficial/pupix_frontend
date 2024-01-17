@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <g id="Group_126" data-name="Group 126" transform="translate(-102 -577)">
+        <circle id="Ellipse_48" data-name="Ellipse 48" cx="10" cy="10" r="10" transform="translate(102 577)"
+                fill="#fff"/>
+        <path id="success_icon" data-name="success icon"
+              d="M99-2350a10.011,10.011,0,0,1-10-10,9.984,9.984,0,0,1,9.943-10H99a10.011,10.011,0,0,1,10,10A10.011,10.011,0,0,1,99-2350Zm-3.92-11.192-1.619,1.591,3.977,3.948,7.1-7.1-1.62-1.591-5.483,5.483-2.358-2.329h0Z"
+              transform="translate(13 2947)" fill="#00aff0"/>
+    </g>
+</svg>

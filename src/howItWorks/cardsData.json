@@ -1,0 +1,27 @@
+{
+  "anyoneCanEarn": {
+    "imageSrc": "/howItWorks/anyoneCanEarn.png",
+    "title": "Anyone can earn",
+    "paragraph": "As far as we concerned, if you use social media & produce your own content, you should be using Pupix. Whether you’re uploading tutorials, tips, behind the scenes footage or just endless selfies, a lot of your followers would be willing to pay for a live, private & secure video session with you!"
+  },
+  "security": {
+    "imageSrc": "/howItWorks/security.png",
+    "title": "We're safe and secure",
+    "paragraph": "We've all read horror stories about security breaches on the internet and so we wanted to be sure that we offer you the safest and securest platform possible. Sensitive information like your name and address are stored on separate secure servers and fully encrypted."
+  },
+  "tips": {
+    "imageSrc": "/howItWorks/tips.png",
+    "title": "Tips are made easy",
+    "paragraph": "Everyone loves tips. Tips are a great way to show appreciation for good work and a satisfying reward for providing it. On Pupix, your fans can send tips easily during calls without re-entering their payment details. Use it to earn more money from your calls!"
+  },
+  "mobile": {
+    "imageSrc": "/howItWorks/mobile.png",
+    "title": "Earn whenever",
+    "paragraph": "We know you're busy, And so we are! We will send you an SMS when someone pays to call you. You don't have to be on Pupix to be available - keep an eye on SMS notifications instead."
+  },
+  "referrer": {
+    "imageSrc": "/howItWorks/referrer.png",
+    "title": "Become a Referrer",
+    "paragraph": "Are you an entrepreneur or influencer with a high following? Then why not turn those followers into money in the bank, with our new referral program. You receive 5% commission for the first 12 Months and $1 Million Dollars of income earned by users who join via your link."
+  }
+}

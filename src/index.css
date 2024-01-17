@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    -moz-osx-font-smoothing: grayscale;
+    --main-gradient: linear-gradient(to right, #5CD1F4, #5C7FF4);
+    --main-color: #3399ff;
+    overflow-x: hidden;
+    --new-main-color: #00AFF0;
+    --light-main-color: #E6F7FE;
+    --black-text-color: #4C4C4C;
+}
+
+.btn-pupik {
+    background-color: var(--new-main-color);
+    color: white;
+}
+
+.alert-pupix {
+    background-color: var(--light-main-color);
+    color: var(--black-text-color);
+    border: 0.1px solid var(--new-main-color);
+}
+
+.btn-pay {
+    background-color: black;
+}
+
+.btn-pupik:hover {
+    color: white;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.firebase-emulator-warning {
+    display: none;
+}
